@@ -1,0 +1,60 @@
+body {
+  background-image: url(Background\ Image.png);
+  width: 100%;
+  margin: 0%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.barra {
+  padding: 3px;
+  padding-left: 9px;
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+  background-color: white;
+  border-radius: 3px;
+  align-items: center;
+  margin: 40px 16px 108px;
+}
+
+#logo {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  align-items: center;
+  width: 100px;
+  border-radius: 5px;
+  box-shadow: 0px 1px 10px 0px #0000001a;
+  height: 60px;
+}
+.descarga {
+  display: flex;
+  font-family: Josefin Sans;
+  margin: 16px;
+  justify-content: center;
+  position: relative;
+}
+.descarga article {
+  background-color: white;
+  top: 20px;
+  right: 20px;
+  bottom: 20px;
+  left: -20px;
+  color: #5956e9;
+  position: absolute;
+  padding: 1em;
+  margin: 16px;
+  color: #000;
+}
+.descarga div {
+  border: 10px solid #7572ff;
+  width: 323px;
+  height: 318px;
+  top: 208px;
+  left: 16px;
+}
