@@ -41,15 +41,8 @@ body {
 }
 .descarga article {
   background-color: white;
-  top: 20px;
-  right: 20px;
-  bottom: 20px;
-  left: -20px;
-  color: #5956e9;
-  position: absolute;
   padding: 1em;
   margin: 16px;
-  color: #000;
 }
 .descarga div {
   border: 10px solid #7572ff;
@@ -57,4 +50,16 @@ body {
   height: 318px;
   top: 208px;
   left: 16px;
+}
+.descarga h3 {
+  color: #5956e9;
+  font-size: 25px;
+  width: 262;
+  height: 71;
+  top: 238px;
+  left: 34px;
+  font-family: Josefin Sans;
+  font-weight: 600;
+  font-size: 25px;
+
 }
